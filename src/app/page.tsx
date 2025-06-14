@@ -1,5 +1,16 @@
+import { ToDoContainer } from "@/components/ToDoContainer";
+
 export default function Home() {
   return (
-    <div>ToDoList</div>
+    <div
+      style={{
+        backgroundColor: "red",
+        height: "100vh",
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
+      <ToDoContainer />
+    </div>
   );
 }
